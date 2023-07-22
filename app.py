@@ -171,7 +171,7 @@ if user_input:
     # get news articles related to the stock symbol using News API
     st.subheader(f"News articles related to {user_input}")
     # initialize NewsApiClient with your API key
-    newsapi = NewsApiClient(api_key='517da00e19094775ae25b3cbf6dfaa80')
+    newsapi = NewsApiClient(api_key='Your API key')
 
     # set the date range
     to_date = datetime.now().strftime('%Y-%m-%d')
